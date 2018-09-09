@@ -11,11 +11,11 @@ Layers of ozone software.
 
 helve.live/#edge
 **Edge** *edgshell*	
-Project database. States: Open (Void), Active (Progress), Release (Fulfilment).
+Project database. States: Open (Void), Active (Ascension), Release (Fulfilment).
 
 helve.live/#grip
 **Grip** *grpshell*	
-Grip is the graphical interface of HELVE. It binds the sub-shells together.
+Graphical interface of HELVE. It binds the sub-shells together.
 
 helve.live/#line
 **Line** *linshell*
