@@ -4,7 +4,7 @@ body {
   } 
 
 wallpaper {
-  background-image: url(../splash/assets/augmented-barkskin.png);
+  background-image: url(splash/assets/augmented-barkskin.png);
   background-size: cover;
   display: block;
   position: fixed;
