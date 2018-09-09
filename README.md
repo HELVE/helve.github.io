@@ -1,8 +1,9 @@
 ![](https://user-images.githubusercontent.com/2768053/45264520-3d0c7a00-b43e-11e8-899c-790441ae68eb.png)
 
-# HELVE microOS | Personal Organization MicroOS 
+# HELVE | Personal Organization Micro webOS 
 
-**HELVE** is a Personal Organization MicroOS (POMOS Shell). It is designed to track, maintain creative project database and analyse behavioral productivity of the user. It contains sub-shells that act as system functionalities.
+**HELVE** is a website-based personal organization microOS (POMOS Shell). 
+Its purpose is to track, maintain and analyse behavioral productivity of the user while establishing creative project databases available for public and private access alike. It contains sub-shells that act as system functionalities.
 
 Shells
 ----------
@@ -44,4 +45,4 @@ helve.live/#hq
 Etymology
 ----------
 
-Helve in its basic linguistic meaning is a handle of a weapon or tool. System shells are named and structured after specific parts of such an object such as a knife.
+Etymologic meaning of the word *helve* constitutes a handle of a weapon or tool. All system shells are named and structured after specific parts of such an object.
