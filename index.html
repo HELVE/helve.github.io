@@ -8,60 +8,39 @@
         <title>HELVE_ /// LIVE ACCESS</title>                               
         <style>
         
-            body { 
-                background-color: black;
-                background-image: url("splash/assets/augmented-barkskin.png") no-repeat center center fixed;                       
-                font-family: Helvetica, arial; 
-            }             
-
-            menu {
-                position: absolute;
-                top: calc(50vh - 100px);
-                left: calc(50vw - 140px);
-                padding:60px 30px;
-                border-radius: 3px;
-                z-index:100; 
+            body, html {
+                height: 100%;
+                margin: 0;
             }
 
-            footer {
-                position: absolute; 
-                opacity: 1; 
-                z-index:100; 
-                bottom:15px;
-                right:20px; 
-                transition: all 4000ms; 
-                opacity: 0
+            .bg {
+                background-image: url("splash/assets/augmented-barkskin.png"); 
+                height: 100%; 
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
             }
-
-            footer img {
-                width:30px; 
-                margin-left:0px; 
-            }
-
-            footer img:hover {
-                opacity: 0.5 
-            }
-
-            div {
-                position: absolute;
-                bottom: 15px;
-                left: 15px;
+                                       
+            .footer {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: red;
                 color: white;
-                font-size:11px; 
-                color:#666; 
-            }
-
-            div a { 
-                text-decoration: underline; 
+                text-align: center;
             }
                                        
         </style>                                                              
     </head>
-    <body>                                                            
-        <footer id='footer'>
+    <body>
+         
+        <div class="bg"></div>
+                                       
+        <div class="footer">
             <a target='_blank' href='http://helve.live/'><img src='splash/assets/hitechcrime.png'></a>
             <a target='_blank' href='http://www.instagram.com/mothnode/'><img src='splash/assets/insta.png'</a>
             <a target='_blank' href='http://www.twitch.tv/mxthnxde/'><img src='splash/assets/twitch.png'</a>
-        </footer>                                                                                                    
+        </div>                                                                                                    
     </body>      
 </html>
