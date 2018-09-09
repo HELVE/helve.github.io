@@ -1,41 +1,88 @@
 <!DOCTYPE html>
 <html>
-    
     <head>
-        
         <meta charset='UTF-8'>
         <meta name='description' content='ACCESS TO HELVE OS INITIATED. STANDBY.'/>
         <meta name='keywords' content='mothnode, tim moth, helve' />
-        <meta name='viewport' content='width=device-width, initial-scale=1, , maximum-scale=1" />
+        <meta name='viewport' content='width=device-width, initial-scale=1, , maximum-scale=1" />                                      
+        <title>HELVE_ /// LIVE ACCESS</title>                               
+        <style>
+        
+            body { 
+                background-color: black; 
+                font-family: Helvetica, arial; 
+            } 
+
+            wallpaper {
+                background-image: url(../splash/assets/augmented-barkskin.png);
+                background-size: cover;
+                display: block;
+                position: fixed;
+                height: 100%;
+                width: 100%; 
+                opacity:0; 
+                transition: all 2000ms
+            }  
+
+            menu {
+                position: absolute;
+                top: calc(50vh - 100px);
+                left: calc(50vw - 140px);
+                padding:60px 30px;
+                border-radius: 3px;
+                z-index:100; 
+            }
+
+            menu #logo {
+                opacity: 0; 
+                transition: all 4000ms; 
+            }
+
+            footer {
+                position: absolute; 
+                opacity: 1; 
+                z-index:100; 
+                bottom:15px;
+                right:20px; 
+                transition: all 4000ms; 
+                opacity: 0
+            }
+
+            footer img {
+                width:30px; 
+                margin-left:0px; 
+            }
+
+            footer img:hover {
+                opacity: 0.5 
+            }
+
+            div {
+                position: absolute;
+                bottom: 15px;
+                left: 15px;
+                color: white;
+                font-size:11px; 
+                color:#666; 
+            }
+
+            div a { 
+                text-decoration: underline; 
+            }
                                        
-        <link rel="stylesheet" type="text/css" href="splash/style.css" />
-                                                                      
-        <title>HELVE_ /// LIVE ACCESS</title>
-                                                                      
+        </style>                                                              
     </head>
-    
     <body>
-    
-        <wallpaper id="bg"><img src="splash/assets/augmented-barkskin.png" /></wallpaper>
-        
-        <menu>
-                          
+        <wallpaper id="bg">
+            <img src="splash/assets/augmented-barkskin.png" />
+        </wallpaper>
+        <menu>          
             <a href='https://helve.live/' id='logo'><img src='/splash/assets/helve-icon.png' />
-        
-        </menu>
-                                                                                   
+        </menu>                                                                
         <footer id='footer'>
-            
             <a target='_blank' href='http://helve.live/'><img src='splash/assets/hitechcrime.png'></a>
             <a target='_blank' href='http://www.instagram.com/mothnode/'><img src='splash/assets/insta.png'</a>
             <a target='_blank' href='http://www.twitch.tv/mxthnxde/'><img src='splash/assets/twitch.png'</a>
-               
-        </footer>
-                                                                                                        
-    </body>
-            
+        </footer>                                                                                                    
+    </body>      
 </html>
-
-
-
-      
