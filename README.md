@@ -41,6 +41,8 @@ Live workspace widget.
 
 helve.live/#hq
 
+**CONSULTING LANDING PAGE**
+
 helve.live/#consulting
 Consulting landing page.
 
@@ -63,6 +65,8 @@ Tier 02 0/5 slots - -$129- $99     /// available for consulting 5 times a month
 Tier 03 0/2 slots - -$999- $699    /// available for consulting 15 times a month
 
 Tier X  0/1 slots - -$1999- $1499  /// on demand availability (once a day, excluding weekends)
+
+Alternatively subscribe to our Helve Dispatch to receive communication.
 
 
 
