@@ -1,3 +1,5 @@
+![](/splash/assets/mothnode-logo-mono.png)
+
 ![](/splash/assets/helveavr_bg.png)
 
 # HELVE | Personal Organization Micro webOS 
